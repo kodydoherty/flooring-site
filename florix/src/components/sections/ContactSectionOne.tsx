@@ -44,15 +44,15 @@ export default function ContactSectionOne() {
                                 <div className="contact-info-inner">
                                     <div className="single-contact-info wow fadeInUp animated" data-wow-delay="200ms">
                                         <p>Email</p>
-                                        <h4>info@florix.com</h4>
+                                        <h4><a href="mailto:info@sperskesfloors.com">info@sperskesfloors.com</a></h4>
                                     </div>
                                     <div className="single-contact-info wow fadeInUp animated" data-wow-delay="400ms">
                                         <p>Phone</p>
-                                        <h4>(123) 456-7890</h4>
+                                        <h4><a href="tel:+17759973848">+1 (775) 997-3848</a></h4>
                                     </div>
                                     <div className="single-contact-info wow fadeInUp animated" data-wow-delay="600ms">
                                         <p>Address</p>
-                                        <h4>77 Kennedy Road, Manhattan, New York - USA</h4>
+                                        <h4>17810 Thunder River Dr, Reno, NV 89508</h4>
                                     </div>
                                     <div className="social-area">
                                         <a href="#"><i className="fab fa-facebook-f"></i></a>

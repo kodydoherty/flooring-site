@@ -2,6 +2,12 @@
 /* 30. Gallery Section CSS  
 -------------------------*/
 
+#gallery-1.gallery-section img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .gallery-section.showcase img {
     height: 350px;
     object-fit: cover;

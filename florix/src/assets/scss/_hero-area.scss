@@ -31,8 +31,10 @@
             padding-top: 60px;
         }
     }
-  .banner-bg-1{
-    background-image: url(../img/slider/1.jpg);
+  // Hero: use a high-quality Sperske installation photo (optimized e.g. 1920×1080).
+  // Dark overlay (overlay-4) keeps hero text readable.
+  .banner-bg-1 {
+    background-image: url(../img/hero-sperske-installation.jpg);
   }
   .banner-bg-2{
     background-image: url(../img/slider/2.jpg);
@@ -55,7 +57,36 @@
     @media #{$xs}{
         display: none;
     }
-    
+}
+
+#home-1 .hero-bullets {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+
+    li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 8px;
+
+        &::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Light";
+            font-weight: 300;
+            position: absolute;
+            left: 0;
+            color: $theme_color;
+        }
+    }
+}
+
+#home-1 .hero-cta-buttons {
+    @media #{$xs} {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 // Slider Nav Style 

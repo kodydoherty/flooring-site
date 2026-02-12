@@ -1,79 +1,67 @@
+import Link from "next/link";
+
+const pricingRows = [
+  { service: "LVP Floating Install", rate: "from $3.50 / sq ft" },
+  { service: "LVP Glue-Down Install", rate: "from $3.00 / sq ft" },
+  { service: "Residential Carpet Install", rate: "from $12.00 / sq yd" },
+  { service: "Commercial Carpet Install", rate: "from $1.00 / sq ft" },
+  { service: "Carpet Tile Install", rate: "from $10.00 / sq ft" },
+  { service: "Rubber Sheet Install", rate: "from $11.00 / sq ft" },
+  { service: "Rubber Tile Install", rate: "from $11.00 / sq ft" },
+  { service: "Sheet Vinyl Install", rate: "from $10.00 / sq ft" },
+  { service: "Vinyl Cove (Cove Base)", rate: "from $9.00 / linear ft" },
+  { service: "Wood Baseboards (Provide & Install)", rate: "from $3.50 / lf" },
+  { service: "Rubber Base (Provide & Install)", rate: "from $4.00 / lf" },
+  { service: "Millwork Baseboards (Install Only)", rate: "from $6.00 / lf" },
+];
+
 export default function PricingSectionOne() {
     return (
-        <div className="pricing-section section-padding pt-100">
+        <div id="pricing-1" className="pricing-section section-padding pt-100">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 col-lg-6">
+                    <div className="col-12">
                         <div className="section-title">
-                            <h2 className="visible-slowly-right">Pricing Plan</h2>
+                            <h2 className="visible-slowly-right">Flooring Services & Straightforward Labor Rates</h2>
+                            <p className="pt-20 wow fadeInUp animated" data-wow-delay=".4s">Transparent pricing for all our flooring services. Final quote depends on room layout, stairs, subfloor condition, and tear-out of old flooring.</p>
                         </div>
                     </div>
                 </div>
-                <div className="row gx-5">
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-price-item">
-                            <h5>Basic Plan</h5>
-                            <div className="price-box">
-                                <h3><span>$</span>2,500 - <span>$</span>5,000</h3>
-                            </div>
-                            <div className="price-list">
-                                <ul>
-                                    <li><i className="las la-check"></i>Interior Design</li>
-                                    <li><i className="las la-check"></i>Custom design concept</li>
-                                    <li><i className="las la-check"></i>3D Rendering of proposed design</li>
-                                    <li><i className="las la-check"></i>Detailed shopping list of decor items</li>
-                                    <li><i className="las la-check"></i>Floor plan and elevations</li>
-                                    <li><i className="las la-check"></i>Ideal for refreshing a single room or space</li>
-
-                                </ul>
-                            </div>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="pricing-table-wrap">
+                            <table className="pricing-table">
+                                <thead>
+                                    <tr>
+                                        <th>Service</th>
+                                        <th>Labor Rate</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {pricingRows.map((row, i) => (
+                                        <tr key={i}>
+                                            <td>{row.service}</td>
+                                            <td>{row.rate}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="pricing-disclaimer mt-4">
+                            <p>Final quote depends on room layout, stairs, subfloor condition, and tear-out of old flooring. Use the calculator below for a ballpark price range, then we&apos;ll confirm everything with a free in-home visit.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-price-item active">
-                            <h5>Premium Plan</h5>
-                            <div className="price-box">
-                                <h3><span>$</span>10,000 - <span>$</span>20,000</h3>
-                            </div>
-                            <div className="price-list">
-                                <ul>
-                                    <li><i className="las la-check"></i>Architectural Design</li>
-                                    <li><i className="las la-check"></i>Consultation with principal architect</li>
-                                    <li><i className="las la-check"></i>Detailed site analysis and feasibility study
-                                    </li>
-                                    <li><i className="las la-check"></i>Custom design concept</li>
-                                    <li><i className="las la-check"></i>Full set of construction documentation</li>
-                                    <li><i className="las la-check"></i>Assistance with permit applications</li>
-                                    <li><i className="las la-check"></i>Ideal for a building new or major renovation
-                                    </li>
-                                </ul>
-                            </div>
+                </div>
+                <div id="price-calculator" className="row mt-5">
+                    <div className="col-12">
+                        <div className="price-calculator-placeholder">
+                            <h3>Get Your Instant Price Estimate</h3>
+                            <p>Interactive pricing calculator coming soon</p>
+                            <Link href="#contact" className="white-btn mt-3">Request In-Home Quote <i className="fa-light fa-arrow-right"></i></Link>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-price-item">
-                            <h5>Deluxe Plan</h5>
-                            <div className="price-box">
-                                <h3>10% <span>of Project Cost</span></h3>
-                            </div>
-                            <div className="price-list">
-                                <ul>
-                                    <li><i className="las la-check"></i>Project Management</li>
-                                    <li><i className="las la-check"></i>Full project management services</li>
-                                    <li><i className="las la-check"></i>Co-ordination with contractors</li>
-                                    <li><i className="las la-check"></i>Project Scheduling</li>
-                                    <li><i className="las la-check"></i>Budget Management</li>
-                                    <li><i className="las la-check"></i>Quality Control</li>
-                                    <li><i className="las la-check"></i>Regular Process Report</li>
-                                    <li><i className="las la-check"></i>Ideal for ensuring project highest standard
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-    )
+    );
 }

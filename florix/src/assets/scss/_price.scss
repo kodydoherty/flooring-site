@@ -1,5 +1,91 @@
-
 /* 32. Price Section CSS  */
+
+/* Service pricing table */
+.pricing-table-wrap {
+  overflow-x: auto;
+  margin-top: 30px;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+
+  thead {
+    tr {
+      background: $primary_color;
+      color: #fff;
+    }
+    th {
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  tbody {
+    tr {
+      transition: 0.3s;
+      border-bottom: 1px solid #eee;
+
+      &:hover {
+        background: rgba($theme_color, 0.06);
+      }
+    }
+    td {
+      padding: 14px 20px;
+      font-size: 15px;
+      color: $body_text;
+
+      &:last-child {
+        text-align: right;
+        font-weight: 500;
+        color: $text_dark;
+      }
+    }
+  }
+}
+
+.pricing-disclaimer {
+  background: #f8f9fa;
+  border-left: 4px solid $theme_color;
+  padding: 20px;
+  p {
+    margin: 0;
+    font-size: 15px;
+    color: $body_text;
+  }
+}
+
+.price-calculator-placeholder {
+  background: linear-gradient(135deg, $primary_color 0%, darken($primary_color, 5%) 100%);
+  color: #fff;
+  padding: 60px 40px;
+  text-align: center;
+  border-radius: 10px;
+
+  h3 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 12px;
+    @media #{$xs} {
+      font-size: 24px;
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    font-size: 17px;
+  }
+  .white-btn {
+    margin-top: 16px;
+  }
+}
 
 .single-price-item {
 	margin-top: 50px;

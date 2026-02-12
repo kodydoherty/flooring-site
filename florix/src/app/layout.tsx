@@ -23,8 +23,12 @@ import BootstrapClient from "@/provider/BootstrapClient";
 import PreLoader from "@/components/PreLoader";
 
 export const metadata: Metadata = {
-  title: "Florix | Flooring & Tiling Services Next Js Template",
-  description: "Florix | Flooring & Tiling Services Next Js Template",
+  title: "Sperske's Floors & More | Professional Flooring Installation Reno-Tahoe",
+  description: "Family-owned flooring installer with 10+ years experience in LVP, carpet, rubber, vinyl, and custom patterns. Serving Reno, Sparks, Dayton, Carson City, Lake Tahoe & Truckee.",
+  openGraph: {
+    title: "Sperske's Floors & More | Professional Flooring Installation Reno-Tahoe",
+    description: "Family-owned flooring installer with 10+ years experience in LVP, carpet, rubber, vinyl, and custom patterns. Serving Reno, Sparks, Dayton, Carson City, Lake Tahoe & Truckee.",
+  },
 };
 
 export default function RootLayout({
@@ -32,9 +36,27 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const localBusinessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Sperske's Floors & More",
+    description: "Family-owned flooring installer with 10+ years experience in LVP, carpet, rubber, vinyl, and custom patterns. Serving Reno, Sparks, Dayton, Carson City, Lake Tahoe & Truckee.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "17810 Thunder River Dr",
+      addressLocality: "Reno",
+      addressRegion: "NV",
+      postalCode: "89508",
+    },
+  };
+
   return (
     <html lang="en">
       <body className={`${jost.variable}`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
       {/*-- Pre-Loader --*/}
       <PreLoader/>
 
