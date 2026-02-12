@@ -5,7 +5,7 @@ const pricingRows = [
   { service: "LVP Glue-Down Install", rate: "from $3.00 / sq ft" },
   { service: "Residential Carpet Install", rate: "from $12.00 / sq yd" },
   { service: "Commercial Carpet Install", rate: "from $1.00 / sq ft" },
-  { service: "Carpet Tile Install", rate: "from $10.00 / sq ft" },
+  { service: "Carpet Tile Install", rate: "from $10.00 / sq yd" },
   { service: "Rubber Sheet Install", rate: "from $11.00 / sq ft" },
   { service: "Rubber Tile Install", rate: "from $11.00 / sq ft" },
   { service: "Sheet Vinyl Install", rate: "from $10.00 / sq ft" },

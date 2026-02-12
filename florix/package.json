@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "pnpm run build && npx firebase deploy"
   },
   "dependencies": {
     "@fancyapps/ui": "^6.0.32",
@@ -26,6 +27,7 @@
     "wow.js": "^1.2.2"
   },
   "devDependencies": {
+    "firebase-tools": "^13.0.0",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",

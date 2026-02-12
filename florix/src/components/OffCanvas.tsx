@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoWhite from "@/assets/img/logo-white.png"
+import logoImg from "@/assets/img/SPERSKES-NO-BACKROUND.png"
 import offCanvasImg from "@/assets/img/off-canvas.jpg"
 
 interface OffCanvasProps {
@@ -20,13 +20,13 @@ export default function OffCanvas({ isActive, setIsActive }: OffCanvasProps) {
                 <div className="logo-side">
                     <div className="logo">
                         <Link href="/">
-                            <Image src={logoWhite} alt=""/>
+                            <Image src={logoImg} alt="Sperske's Floors & More"/>
                         </Link>
                     </div>
                 </div>
                 <div className="side-info">
                     <div className="contact-list mb-40">
-                        <p>Welcome to Florix, A Full Service of Flooring and Tilling Works. </p>
+                        <p>Welcome to Sperske&apos;s Floors &amp; More — family-owned flooring installation serving Reno, Tahoe, and the greater area since 2014.</p>
                         <Image src={offCanvasImg} alt="" className="h-auto"/>
 
                         <div className="mt-30 mb-30">

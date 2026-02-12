@@ -27,7 +27,7 @@ export default function TestimonialOneSlider() {
                     </div>
                     <div className="testimonial-content">
                         <div className="testimonial-text">
-                            <p>I couldn’t be happier with my new hardwood floors from Florz Flooring! The team
+                            <p>I couldn’t be happier with my new hardwood floors from Sperske&apos;s Floors & More! The team
                                 was professional, attentive, and guided me through every step of the process.
                                 The installation was seamless, and the quality of the work is outstanding.
                                 Highly recommend!</p>
@@ -44,7 +44,7 @@ export default function TestimonialOneSlider() {
                     </div>
                     <div className="testimonial-content">
                         <div className="testimonial-text">
-                            <p>I couldn’t be happier with my new hardwood floors from Florz Flooring! The team
+                            <p>I couldn’t be happier with my new hardwood floors from Sperske&apos;s Floors & More! The team
                                 was professional, attentive, and guided me through every step of the process.
                                 The installation was seamless, and the quality of the work is outstanding.
                                 Highly recommend!</p>

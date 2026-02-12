@@ -63,8 +63,8 @@ const MobileMenu = ()=> {
                             </ul>
                         </nav>
                         <div className="action-bar">
-                            <a href="mailto:info@roofix.com"><i className="las la-envelope"></i>info@florix.com</a>
-                            <a href="tel:123-456-7890"><i className="fal fa-phone"></i>123-456-7890</a>
+                            <a href="mailto:info@sperskesfloors.com"><i className="las la-envelope"></i>info@sperskesfloors.com</a>
+                            <a href="tel:+17759973848"><i className="fal fa-phone"></i>+1 (775) 997-3848</a>
                             <Link href="/contact" className="theme-btn">Contact Us</Link>
                         </div>
                     </div>

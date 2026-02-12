@@ -11,16 +11,13 @@ export default function FaqSectionOne() {
                                         <button className="accordion-buttons" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                            <span>01</span>What services do Florix provide?
+                                            <span>01</span>What services does Sperske&apos;s Floors & More provide?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse show"
                                          aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, or
-                                            randomised words which don't look even slightly believable. If you are going
-                                            to use a passage of Lorem Ipsum.
+                                            We install LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns for residential and commercial properties. We also handle baseboards (wood, rubber, millwork), vinyl cove base, and flooring repairs and refinishing. Labor rates are listed on our Pricing page.
                                         </div>
                                     </div>
                                 </div>
@@ -35,10 +32,7 @@ export default function FaqSectionOne() {
                                     <div id="collapseTwo" className="accordion-collapse collapse"
                                          aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, or
-                                            randomised words which don't look even slightly believable. If you are going
-                                            to use a passage of Lorem Ipsum.
+                                            After you request a quote, we schedule a free in-home measure and design help visit. You then receive a written quote with a clear start window. Project length depends on square footage and scope—we&apos;ll give you a timeline when we provide your quote.
                                         </div>
                                     </div>
                                 </div>
@@ -47,16 +41,13 @@ export default function FaqSectionOne() {
                                         <button className="accordion-buttons collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="false" aria-controls="collapseThree">
-                                            <span>03</span>How do I find the right tiles for my project?
+                                            <span>03</span>How do I choose the right flooring for my project?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse"
                                          aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, or
-                                            randomised words which don't look even slightly believable. If you are going
-                                            to use a passage of Lorem Ipsum.
+                                            We offer a free in-home measure and design help visit. We&apos;ll check your subfloor, discuss patterns and layout, and help you decide between LVP, carpet, vinyl, rubber, or other options based on your space, budget, and style. No obligation, no pressure.
                                         </div>
                                     </div>
                                 </div>
@@ -65,16 +56,13 @@ export default function FaqSectionOne() {
                                         <button className="accordion-buttons collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                 aria-expanded="false" aria-controls="collapseFour">
-                                            <span>04</span>Don't architects add substantial cost to a project?
+                                            <span>04</span>Do you offer free estimates?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" className="accordion-collapse collapse"
                                          aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, or
-                                            randomised words which don't look even slightly believable. If you are going
-                                            to use a passage of Lorem Ipsum.
+                                            Yes. Use the calculator on our homepage for a ballpark labor price, or request a free in-home quote. We come out, measure, check your subfloor, and help with patterns and layout—no obligation. You&apos;ll receive a written quote with a clear start window.
                                         </div>
                                     </div>
                                 </div>
@@ -89,10 +77,7 @@ export default function FaqSectionOne() {
                                     <div id="collapseFive" className="accordion-collapse collapse"
                                          aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, or
-                                            randomised words which don't look even slightly believable. If you are going
-                                            to use a passage of Lorem Ipsum.
+                                            Labor rates are listed on our Pricing page (e.g., LVP from $3.50/sq ft, carpet from $12/sq yd). Final quote depends on room layout, stairs, subfloor condition, and tear-out of old flooring. Use the calculator for a ballpark, then we&apos;ll confirm everything with a free in-home visit.
                                         </div>
                                     </div>
                                 </div>

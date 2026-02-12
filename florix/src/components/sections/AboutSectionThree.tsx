@@ -34,20 +34,20 @@ export default function AboutSectionThree() {
                             <div className="tab-content mt-30" id="myTabContent">
                                 <div className="tab-pane fade show active" id="history" role="tabpanel"
                                      aria-labelledby="history-tab">
-                                    <p> At <b>Florix Flooring</b>, we are passionate about transforming spaces with
+                                    <p> At <b>Sperske&apos;s Floors & More</b>, we are passionate about transforming spaces with
                                         high-quality flooring solutions that blend style, durability, and functionality.
                                         With over a decade of experience, our team specializes in a wide range of
                                         flooring services, including hardwood, laminate, vinyl, and tile installations
                                         for both residential and commercial properties.
                                     </p>
-                                    <p>From custom designs to flooring repairs and refinishing, Florz Flooring is your
+                                    <p>From custom designs to flooring repairs and refinishing, Sperske&apos;s Floors & More is your
                                         trusted partner in creating beautiful, durable floors that enhance the value of
                                         your home or business.</p>
                                     <ProgressBars classes="mt-40"/>
                                 </div>
                                 <div className="tab-pane fade" id="mission" role="tabpanel"
                                      aria-labelledby="mission-tab">
-                                    <p> At <b>Florix Flooring</b>, our mission is to deliver exceptional flooring
+                                    <p> At <b>Sperske&apos;s Floors & More</b>, our mission is to deliver exceptional flooring
                                         solutions tailored to our clients' unique needs and styles. We are committed to
                                         providing high-quality materials and expert installation services while
                                         fostering a seamless and enjoyable customer experience. Through integrity,
@@ -56,19 +56,19 @@ export default function AboutSectionThree() {
                                         lasting relationships with our clients, contributing to the transformation of
                                         their environments with flooring that inspires.
                                     </p>
-                                    <p>From custom designs to flooring repairs and refinishing, Florz Flooring is your
+                                    <p>From custom designs to flooring repairs and refinishing, Sperske&apos;s Floors & More is your
                                         trusted partner in creating beautiful, durable floors that enhance the value of
                                         your home or business.</p>
 
                                 </div>
                                 <div className="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
-                                    <p> At <b>Florix Flooring</b>, our vision is to become the leading provider of
+                                    <p> At <b>Sperske&apos;s Floors & More</b>, our vision is to become the leading provider of
                                         innovative, sustainable, and high-quality flooring solutions, transforming homes
                                         and businesses with surfaces that inspire beauty, comfort, and longevity. We aim
                                         to set the standard for excellence in craftsmanship and customer service while
                                         promoting environmentally responsible practices in every project we undertake.
                                     </p>
-                                    <p>From custom designs to flooring repairs and refinishing, Florz Flooring is your
+                                    <p>From custom designs to flooring repairs and refinishing, Sperske&apos;s Floors & More is your
                                         trusted partner in creating beautiful, durable floors that enhance the value of
                                         your home or business.</p>
                                 </div>

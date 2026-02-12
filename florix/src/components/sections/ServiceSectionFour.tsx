@@ -87,11 +87,7 @@ export default function ServiceSectionFour() {
                                     <div id="serviceOne" className="accordion-collapse collapse show"
                                          aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Flooring installation for a company like Florix typically involves the
-                                            process of laying down flooring materials in residential, commercial, or
-                                            industrial spaces. Florix could provide a variety of flooring options, such
-                                            as hardwood, laminate, tile, carpet, or vinyl, each with its own
-                                            installation techniques and considerations.
+                                            Sperske&apos;s Floors & More installs new flooring in residential and commercial spaces across the Reno–Tahoe area. We handle LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns—with transparent labor pricing and a focus on clean, professional installation and cleanup.
                                         </div>
                                     </div>
                                 </div>
@@ -106,11 +102,7 @@ export default function ServiceSectionFour() {
                                     <div id="serviceTwo" className="accordion-collapse collapse"
                                          aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Flooring installation for a company like Florix typically involves the
-                                            process of laying down flooring materials in residential, commercial, or
-                                            industrial spaces. Florix could provide a variety of flooring options, such
-                                            as hardwood, laminate, tile, carpet, or vinyl, each with its own
-                                            installation techniques and considerations.
+                                            Sperske&apos;s Floors & More installs new flooring in residential and commercial spaces across the Reno–Tahoe area. We handle LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns—with transparent labor pricing and a focus on clean, professional installation and cleanup.
                                         </div>
                                     </div>
                                 </div>
@@ -125,11 +117,7 @@ export default function ServiceSectionFour() {
                                     <div id="serviceThree" className="accordion-collapse collapse"
                                          aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Flooring installation for a company like Florix typically involves the
-                                            process of laying down flooring materials in residential, commercial, or
-                                            industrial spaces. Florix could provide a variety of flooring options, such
-                                            as hardwood, laminate, tile, carpet, or vinyl, each with its own
-                                            installation techniques and considerations.
+                                            Sperske&apos;s Floors & More installs new flooring in residential and commercial spaces across the Reno–Tahoe area. We handle LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns—with transparent labor pricing and a focus on clean, professional installation and cleanup.
                                         </div>
                                     </div>
                                 </div>
@@ -144,11 +132,7 @@ export default function ServiceSectionFour() {
                                     <div id="serviceFour" className="accordion-collapse collapse"
                                          aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            Flooring installation for a company like Florix typically involves the
-                                            process of laying down flooring materials in residential, commercial, or
-                                            industrial spaces. Florix could provide a variety of flooring options, such
-                                            as hardwood, laminate, tile, carpet, or vinyl, each with its own
-                                            installation techniques and considerations.
+                                            Sperske&apos;s Floors & More installs new flooring in residential and commercial spaces across the Reno–Tahoe area. We handle LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns—with transparent labor pricing and a focus on clean, professional installation and cleanup.
                                         </div>
                                     </div>
                                 </div>

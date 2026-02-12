@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "/about", "destination": "/about/index.html" },
+      { "source": "/services", "destination": "/services/index.html" },
+      { "source": "/projects", "destination": "/projects/index.html" },
+      { "source": "/price", "destination": "/price/index.html" },
+      { "source": "/faq", "destination": "/faq/index.html" },
+      { "source": "/contact", "destination": "/contact/index.html" }
+    ]
+  }
+}

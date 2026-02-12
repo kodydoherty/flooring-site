@@ -33,7 +33,7 @@ export default function ServiceSectionTwo() {
                             <div className="service-title">
                                 <h5>Flooring <br/> Installation</h5>
                             </div>
-                            <Link href="/services/details" className="details-link">
+                            <Link href="/services" className="details-link">
                                 <i className="fa-light fa-arrow-right"></i>
                             </Link>
                             <div className="border-right d-none d-md-inline-block"></div>
@@ -45,9 +45,9 @@ export default function ServiceSectionTwo() {
                                 <Image src={serviceImg22} alt="" className="h-auto"/>
                             </div>
                             <div className="service-title">
-                                <h5>Tilling <br/> Installation</h5>
+                                <h5>Tile <br/> Installation</h5>
                             </div>
-                            <Link href="/services/details" className="details-link">
+                            <Link href="/services" className="details-link">
                                 <i className="fa-light fa-arrow-right"></i>
                             </Link>
                             <div className="border-right d-none d-lg-inline-block"></div>
@@ -61,7 +61,7 @@ export default function ServiceSectionTwo() {
                             <div className="service-title">
                                 <h5>Floor <br/> Repair</h5>
                             </div>
-                            <Link href="/services/details" className="details-link">
+                            <Link href="/services" className="details-link">
                                 <i className="fa-light fa-arrow-right"></i>
                             </Link>
                             <div className="border-right d-none d-md-inline-block"></div>
@@ -75,7 +75,7 @@ export default function ServiceSectionTwo() {
                             <div className="service-title">
                                 <h5>Floor <br/> Refinishing</h5>
                             </div>
-                            <Link href="/services/details" className="details-link">
+                            <Link href="/services" className="details-link">
                                 <i className="fa-light fa-arrow-right"></i>
                             </Link>
                         </div>

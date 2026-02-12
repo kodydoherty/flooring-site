@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoWhite from "@/assets/img/logo-white.png";
+import logoImg from "@/assets/img/SPERSKES-NO-BACKROUND.png";
 
 interface SearchDropdownProps {
     closeSearch: () => void;
@@ -16,7 +16,7 @@ const SearchDropdown: React.FC<SearchDropdownProps> = ({ closeSearch }) => {
                     <div className="container bg-transparent">
                         <div className="logo">
                             <Link className="navbar-brand" href="/">
-                                <Image src={logoWhite} alt=""/></Link>
+                                <Image src={logoImg} alt="Sperske's Floors & More"/></Link>
                         </div>
                         <button className="close-search" onClick={closeSearch}>
                             <span className="la la-times"></span>

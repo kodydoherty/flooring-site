@@ -51,10 +51,8 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>I gained so much confidence in my ability to connect and deepen my relationships with
-                            people. It’s amazing how much easier it has been to meet new people and create
-                            instant connections. I have the exact same personality, the only thing that has
-                            changed is my mindset and a few behaviors.</p>
+                        <p>Sperske&apos;s Floors & More did an excellent job on our LVP installation. They showed up when they said they would, protected our furniture, and left the place spotless. The floors look great and the price was exactly what they quoted. Would recommend to anyone in the Reno–Tahoe area.
+                            </p>
                     </div>
                     <div className="testimonial-author">
                         <div className="author-img">
@@ -71,10 +69,10 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>I had an excellent experience with Florz Flooring. From the initial consultation to
+                        <p>I had an excellent experience with Sperske&apos;s Floors & More. From the initial consultation to
                             the final walk-through, their team was dedicated to providing top-notch service. My
                             laminate floors look amazing, and I appreciate their attention to detail. The team
-                            was professional, attentive, and guided me Thank you, Florix!</p>
+                            was professional, attentive, and guided me Thank you, Sperske&apos;s Floors & More!</p>
                     </div>
                     <div className="testimonial-author">
                         <div className="author-img">
@@ -91,7 +89,7 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>Florix Flooring transformed my outdated kitchen with beautiful tile flooring. They
+                        <p>Sperske&apos;s Floors & More transformed my outdated kitchen with beautiful tile flooring. They
                             helped me choose the perfect design and color that matched my vision. The
                             installation was quick and efficient, and the team was friendly and knowledgeable.
                             I’ll definitely use them for future projects!</p>
@@ -111,10 +109,8 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>I gained so much confidence in my ability to connect and deepen my relationships with
-                            people. It’s amazing how much easier it has been to meet new people and create
-                            instant connections. I have the exact same personality, the only thing that has
-                            changed is my mindset and a few behaviors.</p>
+                        <p>Sperske&apos;s Floors & More did an excellent job on our LVP installation. They showed up when they said they would, protected our furniture, and left the place spotless. The floors look great and the price was exactly what they quoted. Would recommend to anyone in the Reno–Tahoe area.
+                            </p>
                     </div>
                     <div className="testimonial-author">
                         <div className="author-img">
@@ -131,10 +127,10 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>I had an excellent experience with Florz Flooring. From the initial consultation to
+                        <p>I had an excellent experience with Sperske&apos;s Floors & More. From the initial consultation to
                             the final walk-through, their team was dedicated to providing top-notch service. My
                             laminate floors look amazing, and I appreciate their attention to detail. The team
-                            was professional, attentive, and guided me Thank you, Florix!</p>
+                            was professional, attentive, and guided me Thank you, Sperske&apos;s Floors & More!</p>
                     </div>
                     <div className="testimonial-author">
                         <div className="author-img">
@@ -151,7 +147,7 @@ export default function TestimonialTwoSlider() {
                         <Image src={quoteGray} alt="" className="h-auto"/>
                     </div>
                     <div className="testimonial-text">
-                        <p>Florix Flooring transformed my outdated kitchen with beautiful tile flooring. They
+                        <p>Sperske&apos;s Floors & More transformed my outdated kitchen with beautiful tile flooring. They
                             helped me choose the perfect design and color that matched my vision. The
                             installation was quick and efficient, and the team was friendly and knowledgeable.
                             I’ll definitely use them for future projects!</p>

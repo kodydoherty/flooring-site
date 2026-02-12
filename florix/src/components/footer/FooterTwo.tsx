@@ -14,11 +14,9 @@ export default function FooterTwo() {
                                         Transform Your Space</h2>
                                 </div>
                                 <hr/>
-                                <p className="text-white wow fadeInUp animated" data-wow-delay="400ms">You're invited to
-                                    explore our innovative flooring solutions, featuring durable, water-resistant vinyl
-                                    planks and engineered wood, perfect for enhancing the beauty of your space!</p>
+                                <p className="text-white wow fadeInUp animated" data-wow-delay="400ms">Ready for new floors? Get a free in-home quote from Sperske&apos;s Floors & More. We serve Reno, Sparks, Carson City, Lake Tahoe and the greater Tahoe-Reno area.</p>
                                 <Link href="/contact" className="white-btn mt-20 wow fadeInDown animated"
-                                   data-wow-delay="600ms">Let's Talk <i className="fa-light fa-arrow-right"></i></Link>
+                                   data-wow-delay="600ms">Get a Free Quote <i className="fa-light fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-3"></div>
@@ -26,17 +24,16 @@ export default function FooterTwo() {
                             <div className="contact-info-wrap mt-40">
                                 <div className="single-contact-info">
                                     <h6 className="text-white">Phone</h6>
-                                    <p className="p-xl">+34 567 721 12 35</p>
+                                    <p className="p-xl"><a href="tel:+17759973848" className="text-white text-decoration-none">+1 (775) 997-3848</a></p>
                                 </div>
                                 <div className="single-contact-info">
                                     <h6 className="text-white">E-mail</h6>
-                                    <p>info@florix.com</p>
+                                    <p><a href="mailto:info@sperskesfloors.com" className="text-white text-decoration-none">info@sperskesfloors.com</a></p>
                                 </div>
                                 <div className="single-contact-info">
-                                    <h6 className="text-white">Directions</h6>
-                                    <p>77 Kennedy Road <br/>
-                                        Soho Manhattan <br/>
-                                        New York - USA</p>
+                                    <h6 className="text-white">Address</h6>
+                                    <p>17810 Thunder River Dr <br/>
+                                        Reno, NV 89508</p>
                                 </div>
                             </div>
                         </div>

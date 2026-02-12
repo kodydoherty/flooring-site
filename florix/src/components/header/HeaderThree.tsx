@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import logoImg from "@/assets/img/logo.png";
+import logoImg from "@/assets/img/SPERSKES-NO-BACKROUND.png";
 import MainMenu from "@/components/header/MainMenu";
 import MobileMenu from "@/components/header/MobileMenu";
 import {useRef, useState} from "react";
@@ -29,7 +29,7 @@ export default function HeaderThree() {
                             {/*-- Logo --*/}
                             <div className="logo">
                                 <Link className="navbar-brand" href="/">
-                                    <Image src={logoImg} alt="" className="h-auto"/>
+                                    <Image src={logoImg} alt="Sperske's Floors & More" className="h-auto"/>
                                 </Link>
                             </div>
 

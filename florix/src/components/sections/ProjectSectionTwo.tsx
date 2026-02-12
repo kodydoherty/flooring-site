@@ -29,7 +29,7 @@ export default function ProjectSectionTwo() {
                 <div className="row">
                     <div className="row gy-4 mt-40">
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="200ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng21} alt="" className="h-auto"/>
                                     <div className="project-details">
@@ -40,7 +40,7 @@ export default function ProjectSectionTwo() {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="400ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng22} alt="" className="h-auto"/>
                                     <div className="project-details">
@@ -51,7 +51,7 @@ export default function ProjectSectionTwo() {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="600ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng23} alt="" className="h-auto"/>
                                     <div className="project-details">
@@ -62,7 +62,7 @@ export default function ProjectSectionTwo() {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="200ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng24} alt="" className="h-auto"/>
                                     <div className="project-details">
@@ -73,7 +73,7 @@ export default function ProjectSectionTwo() {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="400ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng25} alt="" className="h-auto"/>
                                     <div className="project-details">
@@ -84,7 +84,7 @@ export default function ProjectSectionTwo() {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInLeft animated" data-wow-delay="600ms">
-                            <Link href="/projects/details" className="single-project-wrapper">
+                            <Link href="/projects" className="single-project-wrapper">
                                 <div className="project-bg">
                                     <Image src={projectIng26} alt="" className="h-auto"/>
                                     <div className="project-details">

@@ -8,17 +8,17 @@ export default function AboutSectionFour() {
                 <div className="row">
                     <div className="col-xl-7 col-lg-7 order-2 order-md-1">
                         <div className="about-content-wrap">
-                            <p>At <b>Florz Flooring</b>, we are passionate about transforming spaces with high-quality
+                            <p>At <b>Sperske&apos;s Floors & More</b>, we are passionate about transforming spaces with high-quality
                                 flooring solutions that blend style, durability, and functionality. With over a decade
                                 of experience, our team specializes in a wide range of flooring services, including
                                 hardwood, laminate, vinyl, and tile installations for both residential and commercial
                                 properties.</p>
                             <p>We take pride in our attention to detail, from helping you select the perfect materials
                                 to ensuring expert installation and long-lasting results. Whether you’re looking to
-                                renovate a single room or update your entire property, Florz Flooring is dedicated to
+                                renovate a single room or update your entire property, Sperske&apos;s Floors & More is dedicated to
                                 delivering top-notch service, on-time project completion, and complete customer
                                 satisfaction.</p>
-                            <p>From custom designs to flooring repairs and refinishing, Florz Flooring is your trusted
+                            <p>From custom designs to flooring repairs and refinishing, Sperske&apos;s Floors & More is your trusted
                                 partner in creating beautiful, durable floors that enhance the value of your home or
                                 business.</p>
                         </div>

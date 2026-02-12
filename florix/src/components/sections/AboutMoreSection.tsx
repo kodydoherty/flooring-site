@@ -19,7 +19,7 @@ export default function AboutMoreSection() {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="about-content-wrap obverse">
-                            <p>At <b>Florz Flooring</b>, our mission is to deliver exceptional flooring solutions
+                            <p>At <b>Sperske&apos;s Floors & More</b>, our mission is to deliver exceptional flooring solutions
                                 tailored to our clients’ unique needs and styles. We are committed to providing
                                 high-quality materials and expert installation services while fostering a seamless and
                                 enjoyable customer experience. Through integrity, innovation, and a dedication to

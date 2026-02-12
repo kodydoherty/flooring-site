@@ -4,13 +4,12 @@ import TimelineSectionOne from "@/components/sections/TimelineSectionOne";
 import AboutMoreSection from "@/components/sections/AboutMoreSection";
 import CounterSectionOne from "@/components/sections/CounterSectionOne";
 import GallerySectionTwo from "@/components/sections/GallerySectionTwo";
-import TeamSectionFour from "@/components/sections/TeamSectionFour";
 
 export default function AboutPage() {
     return (
         <>
             {/*-- Breadcrumb Area  --*/}
-            <Breadcrumb title="Abou Us" bgClass="about"/>
+            <Breadcrumb title="About Us" bgClass="about"/>
 
             {/*-- About Section  --*/}
             <AboutSectionFour/>
@@ -26,9 +25,6 @@ export default function AboutPage() {
 
             {/*-- Gallery Section --*/}
             <GallerySectionTwo/>
-
-            {/*-- Team Section --*/}
-            <TeamSectionFour/>
         </>
     )
 }

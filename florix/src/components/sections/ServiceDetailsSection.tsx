@@ -15,12 +15,8 @@ export default function ServiceDetailsSection() {
                                 <Image src={serviceFeatImg} alt="" className="h-auto"/>
                             </div>
                             <h3>Flooring Installation</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet.</p>
-                            <p>Aliquam laoreet sed neque ac vehicula. Cras congue eros nec quam laoreet, in viverra erat
-                                bibendum. Cras turpis urna, vulputate at est vitae, posuere lobortis erat.</p>
+                            <p>Sperske&apos;s Floors & More installs new flooring in homes and businesses across the Reno–Tahoe area. We handle LVP (floating and glue-down), carpet, vinyl, rubber, and custom patterns—with transparent labor pricing and a focus on clean, professional installation.</p>
+                            <p>From free in-home measure and design help to a written quote with a clear start window, we install, clean up, and walk the job with you before we leave. Every project includes a final walkthrough and satisfaction guarantee.</p>
                             <div className="service-details-img">
                                 <div className="row gy-5">
                                     <div className="col-md-6">
@@ -31,28 +27,13 @@ export default function ServiceDetailsSection() {
                                     </div>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet.</p>
-                            <h5>Flooring Refinishing</h5>
-                            <p>Curabitur pellentesque odio magna, id malesuada arcu sodales ut. Sed sed quam ut ex
-                                bibendum commodo id id magna. Aliquam sed ligula sed ante blandit volutpat. Ut bibendum,
-                                nisi et mattis vulputate, odio arcu aliquet metus, nec dapibus risus risus quis
-                                lectus.</p>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                                sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>We serve Reno, Sparks, Carson City, Lake Tahoe, Truckee, Dayton, and the greater Tahoe-Reno area. Labor rates are listed up front so there are no surprises—what you see in our estimate is what you pay.</p>
+                            <h5>Flooring Refinishing & Repairs</h5>
+                            <p>We also handle flooring repairs and refinishing when you need to extend the life of your existing floors. Our team will assess your subfloor, recommend the best approach, and complete the work with the same attention to detail and cleanup.</p>
                             <div className="service-details-img">
                                 <Image src={serviceDetailsImg3} alt="" className="h-auto"/>
                             </div>
-                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-                                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-                                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                            <p>Ready to get started? Use the calculator on our homepage for a ballpark labor price, or request a free in-home quote. We&apos;ll measure, check your subfloor, and help with patterns and layout—no obligation, no pressure.</p>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4">
@@ -72,15 +53,14 @@ export default function ServiceDetailsSection() {
                                 <ul className="contact-list-item">
 
                                     <li><i className="las la-map-marker"></i>
-                                        Germany — <br/>
-                                        785 15h Street, Office 478 <br/>
-                                        Berlin, De 81566
+                                        17810 Thunder River Dr <br/>
+                                        Reno, NV 89508
                                     </li>
                                     <li><i className="las la-envelope"></i>
-                                        info@email.com
+                                        <a href="mailto:info@sperskesfloors.com">info@sperskesfloors.com</a>
                                     </li>
                                     <li><i className="las la-phone"></i>
-                                        +1 840 841 25 39
+                                        <a href="tel:+17759973848">+1 (775) 997-3848</a>
                                     </li>
                                 </ul>
                             </div>

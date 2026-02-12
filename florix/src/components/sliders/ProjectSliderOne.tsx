@@ -55,7 +55,7 @@ export default function ProjectSliderOne() {
                         </div>
                         <div className="project-info">
                             <h6>Luxury Living Spaces</h6>
-                            <Link href="/projects/details">Read More</Link>
+                            <Link href="/projects">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="single-project-item">
@@ -64,7 +64,7 @@ export default function ProjectSliderOne() {
                         </div>
                         <div className="project-info">
                             <h6>Urban Renovation</h6>
-                            <Link href="/projects/details">Read More</Link>
+                            <Link href="/projects">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="single-project-item">
@@ -73,7 +73,7 @@ export default function ProjectSliderOne() {
                         </div>
                         <div className="project-info">
                             <h6>Family Friendly Flooring</h6>
-                            <Link href="/projects/details">Read More</Link>
+                            <Link href="/projects">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="single-project-item">
@@ -82,7 +82,7 @@ export default function ProjectSliderOne() {
                         </div>
                         <div className="project-info">
                             <h6>Elegant Essentials</h6>
-                            <Link href="/projects/details">Read More</Link>
+                            <Link href="/projects">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="single-project-item">
@@ -91,7 +91,7 @@ export default function ProjectSliderOne() {
                         </div>
                         <div className="project-info">
                             <h6>Timberland Revival</h6>
-                            <Link href="/projects/details">Read More</Link>
+                            <Link href="/projects">Read More</Link>
                         </div>
                     </SwiperSlide>
 
